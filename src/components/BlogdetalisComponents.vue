@@ -1,7 +1,7 @@
 <template>
  <div> <body>
     <div class="top">
-      <HeaderComponents/>
+      
       <!-- <header class="header center">
         <div class="logo">
           <div class="logo__svg">
@@ -70,7 +70,7 @@
     <button class="tags__button" :class="{ active: selecttitle === 'building' }" @click="selecttitle='building'">Building</button>
     <button class="tags__button" :class="{ active: selecttitle === 'archilecture' }" @click="selecttitle='architecture'">Architecture</button>
   </div></div>
-  <FooterComponents/>
+  
   <!-- <footer class="footer center">
     <div class="footer-box">
         <div class="footer-box__left">
@@ -111,8 +111,8 @@
 </template>
 
 <script>
-import FooterComponents from './FooterComponents.vue';
-import HeaderComponents from './HeaderComponents.vue';
+
+
 
     export default {
     name: 'BlogdetalisComponents',
@@ -132,7 +132,7 @@ import HeaderComponents from './HeaderComponents.vue';
             ],
         };
     },
-    components: { HeaderComponents, FooterComponents }
+    components: {  }
 }
     
 </script>

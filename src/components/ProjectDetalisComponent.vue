@@ -1,5 +1,5 @@
 <template>
-    <HeaderComponents/>
+    
     <div class="maine ">
         
         <img src="../assets/imgcategory/Photo7.svg" alt="" class="maine-img">

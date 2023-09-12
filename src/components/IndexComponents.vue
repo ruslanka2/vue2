@@ -2,7 +2,7 @@
    <div><body>
         <div class="top">
           
-          <HeaderComponents/>
+          
             <!-- <header class="header center">
                 <div class="logo">
                     <div class="logo__svg"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
@@ -34,7 +34,7 @@
                                 Be Unique</h2>
                             <p class="maine__back_text">There are many variations of the passages of
                                 lorem Ipsum fromavailable, majority.</p>
-                            <a href=""><button class="maine__back_button"><p class="maine__back_button_text">Get stardet <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17" fill="none">
+                            <a href="gfdrg"><button class="maine__back_button"><p class="maine__back_button_text">Get stardet <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17" fill="none">
                                 <path d="M2 8.43542L15.7232 8.29857M10.6182 1.91138L17.1412 8.43436L10.4868 15.0887" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
                               </svg></p></button></a>
                         </div>
@@ -175,7 +175,7 @@
                 </div>
     
             </div>
-            <FooterComponents/>
+            
             <!-- <footer class="footer center">
                 <div class="footer-box">
                     <div class="footer-box__left">
@@ -215,14 +215,13 @@
 </template>
 
 <script>
-import FooterComponents from './FooterComponents.vue';
-import HeaderComponents from './HeaderComponents.vue';
+
 ;
 
 
     export default {
     name: "IndexComponents",
-    components: { HeaderComponents, FooterComponents}
+    components: { }
 }
 </script>
 

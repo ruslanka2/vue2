@@ -11,14 +11,11 @@
             </div>
         </div>
         <nav class="nav">
-            <div class="nav__menuBar">
-                <a href="#" class="nav__menubar_link">Home</a>
-                </div>
-            <div class="nav__menuBar">
-                <a href="#" class="nav__menubar_link">Project</a>
-                </div>
-            <div class="nav__menuBar">
-            <a href="#" class="nav__menubar_link">Blog</a></div>
+           <router-link :to="link.url" v-for="link in links" :key="link.id" class="nav__menuBar">
+            
+            {{link.title}}
+           
+        </router-link> 
         </nav>
     </header></div>
 </template>
@@ -26,6 +23,15 @@
 <script>
     export default {
         name: "HeaderComponents",
+        data() {
+            return {
+                links:[
+                    {id:1,title:'Home',url:'./'},
+                    {id:1,title:'Project',url:'./Project'},
+                    {id:1,title:'Blog',url:'./Blog'},
+                ]
+            }
+        },
     }
 </script>
 

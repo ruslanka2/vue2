@@ -59,7 +59,12 @@ import { Zoom, Navigation, Pagination } from 'swiper/modules';
 </script>
 
 <style lang="scss" scoped>
-
+.swiper-container {
+  /* Измените стили контейнера здесь */
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+.swiper-button-next::after{color: black;}
 #app { height: 100% }
 html,
 body {
